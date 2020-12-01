@@ -49,7 +49,7 @@ section at the end of this file).
  * This may be any bit in the port.
  */
 #define USB_CFG_DPLUS_BIT       2
-/* Typically ISR connected to this pin, use 1M pullup if possible. (GREEN usb wire)
+/* Typically ISR connected to this pin, use 1M pulldown if possible. (GREEN usb wire)
  * If USB_COUNT_SOF is 0, then ISR will connect to this pin, rising edge trigger.
  * This is the bit number in USB_CFG_IOPORT where the USB D+ line is connected.
  * This may be any bit in the port. Please note that D+ must also be connected
